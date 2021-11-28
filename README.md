@@ -90,4 +90,4 @@ export default App;
 
 ---------
 
-## Official documentation [link](https://www.apollographql.com/docs/react/get-started/)
+## Official documentation [link](https://www.apollographql.com/docs/react/get-started/) or [https://graphql.org/](https://graphql.org/)
