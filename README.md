@@ -69,5 +69,6 @@ function App() {
 
 export default App;
 ```
+![gif](gif.gif)
 
 ## Official documentation [link](https://www.apollographql.com/docs/react/get-started/)

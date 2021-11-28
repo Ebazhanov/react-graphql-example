@@ -29,7 +29,7 @@ function ExchangeRates() {
 function App() {
     return (
         <div>
-            <h2>get "Currency Exchange Rates" using Apollo & Graphql</h2>
+            <h2>Currency Exchange Rates</h2>
             <ExchangeRates/>
         </div>
     );
