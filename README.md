@@ -1,12 +1,13 @@
 Graphql + React [simple example](https://graphql-react-example.netlify.app/)
 ----
+![gif](gif.gif)
 
-#### Creat React typescript project
+- #### Creat React typescript project
 ```shell
 $ npx create-react-app my-app --template typescript
 ```
 
-#### You connect Apollo Client to React with the ApolloProvider component. `index.tsx`
+- #### You connect Apollo Client to React with the ApolloProvider component. `index.tsx`
 ```tsx
 import {
     ApolloClient,
@@ -27,7 +28,7 @@ render(
 );
 ```
 
-#### Fetch data with useQuery that shares GraphQL data with your UI. `App.tsx`
+- #### Fetch data with useQuery that shares GraphQL data with your UI. `App.tsx`
 
 ```tsx
 import React from 'react';
@@ -69,6 +70,5 @@ function App() {
 
 export default App;
 ```
-![gif](gif.gif)
 
-## Official documentation [link](https://www.apollographql.com/docs/react/get-started/)
+- ## Official documentation [link](https://www.apollographql.com/docs/react/get-started/)
