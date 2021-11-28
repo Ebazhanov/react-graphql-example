@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Graphql and React simple example",
+  "name": "Demonstration of GraphQL usage with React",
   "icons": [
     {
       "src": "favicon.ico",
