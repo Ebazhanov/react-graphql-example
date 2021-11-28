@@ -6,7 +6,7 @@ Graphql + React [simple example](https://graphql-react-example.netlify.app/)
 $ npx create-react-app my-app --template typescript
 ```
 
-#### You connect Apollo Client to React with the ApolloProvider component. Similar to React's Context.Provider, ApolloProvider wraps your React app and places Apollo Client on the context, which enables you to access it from anywhere in your component tree. `index.tsx`
+#### You connect Apollo Client to React with the ApolloProvider component. `index.tsx`
 ```tsx
 import {
     ApolloClient,
@@ -27,7 +27,7 @@ render(
 );
 ```
 
-#### After your ApolloProvider is hooked up, you can start requesting data with useQuery. useQuery is a React hook that shares GraphQL data with your UI. `App.tsx`
+#### Fetch data with useQuery that shares GraphQL data with your UI. `App.tsx`
 
 ```tsx
 import React from 'react';
