@@ -49,7 +49,7 @@ render(
 
 ```tsx
 import React from 'react';
-import './App.css';
+import './App.scss';
 import {gql, useQuery} from "@apollo/client";
 
 const EXCHANGE_RATES = gql`
